@@ -1,20 +1,29 @@
-day = int(input("Enter day number (1-7): "))
+month = int(input("Enter month number (1-12): "))
 
-match day:
+match month:
     case 1:
-        print("Monday")
+        print("January")
     case 2:
-        print("Tuesday")
+        print("February")
     case 3:
-        print("Wednesday")
+        print("March")
     case 4:
-        print("Thursday")
+        print("April")
     case 5:
-        print("Friday")
+        print("May")
     case 6:
-        print("Saturday")
+        print("June")
     case 7:
-        print("Sunday")
+        print("July")
+    case 8:
+        print("August")
+    case 9:
+        print("September")
+    case 10:
+        print("October")
+    case 11:
+        print("November")
+    case 12:
+        print("December")
     case _:
-        print("Invalid day")
-        
+        print("Invalid month")
